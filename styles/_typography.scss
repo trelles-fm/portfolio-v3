@@ -1,0 +1,24 @@
+.main-header {
+  color: var(--color-white);
+  font-family: var(--font-serif);
+  font-size: 8rem;
+  text-align: center;
+  margin-top: 225px;
+  margin-bottom: 50px;
+
+  span {
+    color: var(--color-green-light);
+  }
+}
+
+.sub-header {
+  font-size: 1.2rem;
+}
+
+.gradient-text {
+  @include gradient-background;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
